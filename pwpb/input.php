@@ -11,7 +11,7 @@ if ($_POST['Submit'] == "Submit") {
     if($ceknis > 0) {
         ?>
         <script language="JavaScript"> alert('Oops! Duplikat NIS ...');
-        document.location='form-input.php';
+        document.location='form_input.php';
         </script>
     <?php
     } else {
